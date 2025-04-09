@@ -17,7 +17,7 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.Arrays;
-
+@CrossOrigin(origins = "https://webcarfrontend7.vercel.app")
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
