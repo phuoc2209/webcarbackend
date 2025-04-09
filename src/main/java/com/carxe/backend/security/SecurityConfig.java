@@ -81,7 +81,8 @@ public class SecurityConfig {
         // Chỉ định rõ các origin được phép để đảm bảo bảo mật
         configuration.setAllowedOrigins(Arrays.asList(
             "http://localhost:3000",
-            "http://localhost:5173"
+            "http://localhost:5173",
+            "https://webcarfrontend7.vercel.app"
         ));
         
         // Cho phép tất cả các HTTP methods quan trọng
